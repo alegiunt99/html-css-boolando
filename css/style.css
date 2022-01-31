@@ -65,6 +65,38 @@
 .favourites:hover{
     color: red;
 }
+
+.sales{
+    position: absolute;
+    background-color: #fb035f;
+    color: white;
+    top: 480px;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 4px;
+}
+
+.ecologic{
+    position: absolute;
+    background-color: #379b5d;
+    color: white;
+    top: 480px;
+    left: 45px;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 4px;
+}
+
+.bottom-photos .right-photo .ecologic{
+    position: absolute;
+    background-color: #379b5d;
+    color: white;
+    top: 480px;
+    left: 0px;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 4px;
+}
 /* / Layout */
 
 
@@ -128,7 +160,17 @@
     padding: 4px;
 }
 
-
+/*
+.debug .ecologic{
+    position: absolute;
+    background-color: #379b5d;
+    color: white;
+    top: 480px;
+    left: 45px;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 4px;
+}
 
 
 
