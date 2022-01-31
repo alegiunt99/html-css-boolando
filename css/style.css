@@ -32,7 +32,7 @@
 }
 
 .left-photo img{
-
+    
 }
 
 .center-photo img{
@@ -40,9 +40,20 @@
 }
 
 .right-photo img{
-    
+
 }
 
+.favourites{
+    background-color: white;
+    position: absolute;
+    padding: 5px 10px;
+    right: 0px;
+    top: 25px;
+}
+
+.favourites:hover{
+    color: red;
+}
 /* / Layout */
 
 
@@ -60,6 +71,7 @@
     border: 2px dashed greenyellow;
     width: 32%;
     height: 100%;
+    position: relative;
 }
 
 .debug .center-photo{
@@ -68,6 +80,7 @@
     width: 32%;
     height: 100%;
     margin: 0 2%;
+    position: relative;
 }
 
 .debug .right-photo{
@@ -75,6 +88,7 @@
     border: 2px dashed yellow;
     width: 32%;
     height: 100%;
+    position: relative;
 }
 
 .debug .left-photo img,
@@ -85,7 +99,13 @@
 }
 
 
-
+.debug .favourites{
+    background-color: white;
+    position: absolute;
+    padding: 5px 10px;
+    right: 0px;
+    top: 25px;
+}
 
 
 
