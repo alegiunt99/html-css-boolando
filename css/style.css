@@ -18,7 +18,7 @@
 
 /* Layout */
 
-.top-phtos,
+.top-photos,
 .bottom-photos{
     height: 630px;   
     margin-top: 20px;
@@ -29,6 +29,7 @@
     float: left;
     width: 32%;
     height: 100%;
+    position: relative;
 }
 
 .center-photo{
@@ -36,12 +37,16 @@
     width: 32%;
     height: 100%;
     margin: 0 2%;
+    position: relative;
 }
+
+
 
 .left-photo img{
     width: 100%;
     position: relative;
 }
+
 
 .center-photo img{
     width: 100%;
@@ -97,21 +102,24 @@
     font-weight: 800;
     padding: 4px;
 }
+
+.brands{
+    font-size: 13px;
+}
 /* / Layout */
 
 
-/* Debug */
+/* Debug 
 
 .debug .top-photos,
 .debug .bottom-photos{
-    border: 2px dashed blue;
     height: 630px;   
     margin-top: 20px;
 }
 
+/*
 .debug .left-photo{
     float: left;
-    border: 2px dashed greenyellow;
     width: 32%;
     height: 100%;
     position: relative;
@@ -119,7 +127,6 @@
 
 .debug .center-photo{
     float: left;
-    border: 2px dashed red;
     width: 32%;
     height: 100%;
     margin: 0 2%;
@@ -128,12 +135,12 @@
 
 .debug .right-photo{
     float: left;
-    border: 2px dashed yellow;
     width: 32%;
     height: 100%;
     position: relative;
 }
 
+/*
 .debug .left-photo img,
 .debug .center-photo img, 
 .debug .right-photo img{
@@ -141,7 +148,7 @@
     position: relative;
 }
 
-
+/*
 .debug .favourites{
     background-color: white;
     position: absolute;
@@ -149,7 +156,7 @@
     right: 0px;
     top: 25px;
 }
-
+/*
 .debug .sales{
     position: absolute;
     background-color: #fb035f;
@@ -157,7 +164,7 @@
     top: 480px;
     font-size: 12px;
     font-weight: 800;
-    padding: 4px;
+    padding: 4px; 
 }
 
 /*
