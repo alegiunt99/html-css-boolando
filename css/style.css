@@ -24,6 +24,45 @@
     margin-top: 20px;
 }
 
+.top-photos #photo-1:hover{
+    cursor: pointer;
+    content: url("../img/1b.webp");
+    width: 100%;
+}
+
+.top-photos #photo-2:hover{
+    cursor: pointer;
+    content: url("../img/2b.webp");
+    width: 100%;
+}
+
+.top-photos #photo-3:hover{
+    cursor: pointer;
+    content: url("../img/3b.webp");
+    width: 100%;
+}
+
+.bottom-photos #photo-4:hover{
+    cursor: pointer;
+    content: url("../img/4b.webp");
+    width: 100%;
+}
+
+
+.bottom-photos #photo-5:hover{
+    cursor: pointer;
+    content: url("../img/5b.webp");
+    width: 100%;
+}
+
+
+.bottom-photos #photo-6:hover{
+    cursor: pointer;
+    content: url("../img/6b.webp");
+    width: 100%;
+}
+
+
 .left-photo,
 .right-photo{
     float: left;
@@ -48,10 +87,13 @@
 }
 
 
+
 .center-photo img{
     width: 100%;
     position: relative;
 }
+
+
 
 .right-photo img{
     width: 100%;
@@ -69,6 +111,7 @@
 
 .favourites:hover{
     color: red;
+    cursor: pointer;
 }
 
 .sales{
@@ -120,6 +163,8 @@ h2{
 .deleted{
     text-decoration: line-through;
 }
+
+
 /* / Layout */
 
 
