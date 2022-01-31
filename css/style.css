@@ -103,12 +103,22 @@
     padding: 4px;
 }
 
-.brands{
+.brands, 
+.price{
     font-size: 13px;
 }
 
 h2{
     font-size: 20px;
+}
+
+.saled-price{
+    color:#fb035f;
+    font-weight: 800;
+}
+
+.deleted{
+    text-decoration: line-through;
 }
 /* / Layout */
 
