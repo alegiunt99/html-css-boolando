@@ -2,11 +2,18 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: Arial;
 }
 
 .container{
     width: 85%;
     margin: 20px auto;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* Layout */
@@ -32,14 +39,18 @@
 }
 
 .left-photo img{
-    
+    width: 100%;
+    position: relative;
 }
 
 .center-photo img{
-
+    width: 100%;
+    position: relative;
 }
 
 .right-photo img{
+    width: 100%;
+    position: relative;
 
 }
 
@@ -105,6 +116,16 @@
     padding: 5px 10px;
     right: 0px;
     top: 25px;
+}
+
+.debug .sales{
+    position: absolute;
+    background-color: #fb035f;
+    color: white;
+    top: 480px;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 4px;
 }
 
 
